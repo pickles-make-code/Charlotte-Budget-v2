@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import { db } from './firebase'
 import { doc, onSnapshot, setDoc } from 'firebase/firestore'
 
-const DOC_ID = 'casual-budget-charlottex'
+const DOC_ID = 'casual-budget-charlotte'
 
 const initialCategories = [
   { id: 'housing',   label: 'Housing',          icon: '🏠', color: '#e07b54', items: [{ name: 'Rent / Mortgage', amount: 0 }] },
